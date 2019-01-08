@@ -10,14 +10,27 @@ export function isAtLeastTwoWeeks(date) {
 }
 
 export function isValid(email) {
-  return validator.isEmail(email);
+  return /@/.test(email);
 }
 
 export function createEmployee(details) {
+  const { firstName: name, ...rest } = details;
+
   return {
-    name: '',
+    name: name || '',
     position: '',
-    ...details,
+    ...rest,
     key: uniqueId(),
   }
 }
+
+// export function createEmployee(details = {}) {
+//   const { firstName: name, ...rest } = details;
+// 
+//   return {
+//     name: name || '',
+//     position: '',
+//     ...rest,
+//     key: uniqueId(),
+//   }
+// }

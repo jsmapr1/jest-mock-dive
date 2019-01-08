@@ -4,7 +4,7 @@ import validator from 'validator';
 jest.mock('moment');
 jest.mock('validator');
 
-describe.skip('iso weekend', () => {
+describe('iso weekend', () => {
   it('should return a two week message', () => {
     moment.mockImplementation(() => ({
       add: () => {},
