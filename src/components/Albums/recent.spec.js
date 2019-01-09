@@ -9,5 +9,4 @@ describe('recent', () => {
     ]
     expect(albums).toEqual(expected);
   })
-
 })

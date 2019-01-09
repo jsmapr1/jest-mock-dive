@@ -11,6 +11,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "coverage": "npm test -- --coverage --coverageReporters=html --collectCoverageFrom=src/components/**/*.js && open coverage/index.html",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
