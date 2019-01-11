@@ -3,7 +3,7 @@ import moment from 'moment';
 jest.mock('moment');
 
 describe('iso weekend', () => {
-  it('should return a two week message', () => {
+  it.skip('should return a two week message', () => {
     moment.mockImplementation(() => ({
       add: () => {},
       isAfter: () => false
@@ -11,7 +11,7 @@ describe('iso weekend', () => {
     expect(isAtLeastTwoWeeks('2018-02-02')).toEqual(message);
   })
 
-  it('should return no message', () => {
+  it.skip('should return no message', () => {
     moment.mockImplementation(() => ({
       add: () => {},
       isAfter: () => true

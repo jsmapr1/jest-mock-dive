@@ -1,6 +1,6 @@
 import { createEmployee, } from './utils';
 
-describe.skip('iso weekend', () => {
+describe('iso weekend', () => {
   it('should create a blank employee', () => {
     const blank = createEmployee();
     const expected = {
