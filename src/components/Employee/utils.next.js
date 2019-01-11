@@ -1,7 +1,6 @@
 import uniqueId from 'lodash/uniqueId'
-/* istanbul ignore file */
 
-export function createEmployee(details) {
+export function createEmployee(details = {}) {
   const { firstName: name, ...rest } = details;
 
   return {

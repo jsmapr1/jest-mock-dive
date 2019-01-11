@@ -1,6 +1,6 @@
 import { isAtLeastTwoWeeks,  message } from './utils';
 
-describe('iso weekend', () => {
+describe.skip('iso weekend', () => {
   it('should return a two week message', () => {
     expect(isAtLeastTwoWeeks('2019-01-02')).toEqual(message);
   })

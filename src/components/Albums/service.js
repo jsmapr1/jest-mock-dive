@@ -1,3 +1,4 @@
+/* istanbul ignore file */
 const albums = [
   {
     year: 1992,

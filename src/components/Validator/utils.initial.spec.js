@@ -1,6 +1,6 @@
 import { isValid } from './utils';
 
-describe('validator', () => {
+describe.skip('validator', () => {
   it('should validate', () => {
     expect(isValid('bea@morgan.com')).toBeTruthy();
   })
