@@ -1,6 +1,6 @@
 import uniqueId from 'lodash/uniqueId'
 
-export function createEmployee(details = {}) {
+export function createEmployee(details) {
   const { firstName: name, ...rest } = details;
 
   return {
@@ -10,9 +10,6 @@ export function createEmployee(details = {}) {
     key: uniqueId(),
   }
 }
-
-
-
 
 
 

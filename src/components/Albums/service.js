@@ -1,4 +1,9 @@
 /* istanbul ignore file */
+const newAlbum = {
+   year: 2018,
+   title: 'Leagus Beneath'
+ }
+
 const albums = [
   {
     year: 1992,
@@ -16,14 +21,12 @@ const albums = [
     year: 2018,
     title: 'The Sciences'
   },
-  //   {
-  //     year: 2018,
-  //     title: 'Leagus Beneath'
-  //   }
 ];
 
 export default function service() {
+  // Fake Ajax Call
   return new Promise((resolve, reject) => {
     resolve(albums);
   }, 250);
 }
+
