@@ -1,7 +1,7 @@
 /* istanbul ignore file */
 const newAlbum = {
    year: 2018,
-   title: 'Leagus Beneath'
+   title: 'Leagues Beneath'
  }
 
 const albums = [
