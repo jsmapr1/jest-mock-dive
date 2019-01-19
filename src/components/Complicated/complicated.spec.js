@@ -6,7 +6,7 @@ describe.skip('square', () => {
   })
 })
 
-describe.('getCompanyName', () => {
+describe('getCompanyName', () => {
   it.skip('should return empty string if no name', () => {
     expect(getCompanyName()).toEqual('');
   })
