@@ -20,6 +20,32 @@ export function createEmployee(details) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // export function createEmployee(details = {}) {
 //   const { firstName: name, ...rest } = details;
 // 
