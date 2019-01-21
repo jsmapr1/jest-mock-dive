@@ -12,7 +12,7 @@ describe.skip('iso weekend', () => {
     expect(isAtLeastTwoWeeks('2018-02-02')).toEqual(message);
   })
 
-  it('should return no message', () => {
+  it.skip('should return no message', () => {
     moment.mockImplementationOnce(() => ({
       add: () => {},
       isAfter: () => true
