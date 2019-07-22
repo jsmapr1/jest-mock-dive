@@ -6,6 +6,6 @@ describe('iso weekend', () => {
   })
 
   it('should return no message', () => {
-    expect(isAtLeastTwoWeeks('2019-02-15')).toEqual('');
+    expect(isAtLeastTwoWeeks('2019-08-15')).toEqual('');
   })
 })
